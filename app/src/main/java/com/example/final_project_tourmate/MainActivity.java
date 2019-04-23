@@ -20,22 +20,28 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private String email, password;
-    private FirebaseAuth firebaseAuth;
+    private  FirebaseAuth firebaseAuth;
     private FirebaseUser user;
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();
-
+        if(firebaseAuth.getCurrentUser()!=null)
+        {
+            startActivity(new Intent(this,EventLIstActivity.class));
+        }
 
 
     }
 
+
     public void loginUser(View view) {
+
         String email = binding.emailEditText.getText().toString();
         String password = binding.passwordEditText.getText().toString();
         logIn(new RegisterData(email, password));
@@ -73,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {
                         //Toast.makeText(SingInActivity.this, "Login successful.", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this, Create_Event_Tour_Activity.class));
+                        startActivity(new Intent(MainActivity.this, EventLIstActivity.class));
 
 
                     } else {
