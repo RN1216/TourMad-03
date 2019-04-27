@@ -12,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 
@@ -21,6 +22,8 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase database;
     private DatabaseReference userRef;
+    private SimpleDateFormat dateSDF = new SimpleDateFormat("dd/MM/yyyy");
+
     private String user;
 
     public TourRecyclerViewAdapter(List<TourInfo> dataList, Context context) {
@@ -41,6 +44,8 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
         final TourInfo currentData = dataList.get(i);
         viewHolder.binding.tourNameTV.setText(currentData.getTourName());
         viewHolder.binding.tourDescriptionTV.setText(currentData.getTourDescription());
+        viewHolder.binding.startDateTV.setText(dateSDF.format(currentData.getStartDate()));
+        viewHolder.binding.endDateTV.setText(dateSDF.format(currentData.getEndDate()));
         viewHolder.binding.budgetTV.setText(String.valueOf(currentData.getBudget()));
 
     }
