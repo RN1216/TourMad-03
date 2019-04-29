@@ -5,24 +5,24 @@ import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ListView;
 
 public abstract class ActivityEventListBinding extends ViewDataBinding {
   @NonNull
   public final Button addEvnt;
 
   @NonNull
-  public final ListView listViewID;
+  public final RecyclerView recyclerView;
 
   protected ActivityEventListBinding(DataBindingComponent _bindingComponent, View _root,
-      int _localFieldCount, Button addEvnt, ListView listViewID) {
+      int _localFieldCount, Button addEvnt, RecyclerView recyclerView) {
     super(_bindingComponent, _root, _localFieldCount);
     this.addEvnt = addEvnt;
-    this.listViewID = listViewID;
+    this.recyclerView = recyclerView;
   }
 
   @NonNull

@@ -14,7 +14,7 @@ public class ActivityEventListBindingImpl extends ActivityEventListBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.list_viewID, 1);
+        sViewsWithIds.put(R.id.recyclerView, 1);
         sViewsWithIds.put(R.id.addEvnt, 2);
     }
     // views
@@ -31,7 +31,7 @@ public class ActivityEventListBindingImpl extends ActivityEventListBinding  {
     private ActivityEventListBindingImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[2]
-            , (android.widget.ListView) bindings[1]
+            , (android.support.v7.widget.RecyclerView) bindings[1]
             );
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);

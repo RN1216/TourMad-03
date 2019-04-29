@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\show_tour_detail_info.xml",
-        "source": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\src\\main\\res\\layout\\show_tour_detail_info.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_user.xml",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_register_user.xml"
     },
     {
-        "merged": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\show_tour_detail_info.xml",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\show_tour_detail_info.xml"
     },
     {
-        "merged": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create__event__tour_.xml",
-        "source": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\src\\main\\res\\layout\\activity_create__event__tour_.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tour_detail_info.xml",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_tour_detail_info.xml"
     },
     {
-        "merged": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tour_detail_info.xml",
-        "source": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\src\\main\\res\\layout\\activity_tour_detail_info.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_event_list.xml",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_event_list.xml"
     },
     {
-        "merged": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_event_list.xml",
-        "source": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\src\\main\\res\\layout\\activity_event_list.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create__event__tour_.xml",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_create__event__tour_.xml"
     },
     {
-        "merged": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_user.xml",
-        "source": "C:\\Users\\reunn\\AndroidStudioProjects\\TourMad-03\\app\\src\\main\\res\\layout\\activity_register_user.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

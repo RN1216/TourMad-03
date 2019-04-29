@@ -2,33 +2,103 @@
 
 <layout>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center_horizontal|center_vertical"
+        tools:context=".TourDetailInfoActivity"
+        android:background="#23E91E63">
 
-        tools:context=".TourDetailInfoActivity">
+       <TextView
+           android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Chittagong Tour"
+           android:layout_gravity="center"
+           android:textSize="24dp"
+           android:textColor="#F5ECEC"
+           android:background="#4D1B1B"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Expenditure"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:background="#9A2196F3"/>
 
-        <android.support.v7.widget.CardView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardMaxElevation="12dp">
-
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
+            android:orientation="vertical">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toatal Budget :2000"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add new expense"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View all expense"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remaing  budget : 1540"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="10">
+            android:layout_height="wrap_content"
+            android:text="Moments"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:background="#9A2196F3"/>
 
-        </android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a photo"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Gallery"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View all Moments"
+                android:textSize="20dp"
+                android:background="#3E00BCD4"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

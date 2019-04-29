@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Final_Project_TourMate</string>
+    <string name="menu_icon">⋮</string>
 </resources>
