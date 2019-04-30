@@ -12,11 +12,14 @@
         app:cardCornerRadius="10dp"
         app:cardElevation="4dp"
         app:cardMaxElevation="8dp"
+
       >
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#65CDDC39"
+        android:layout_margin="5dp">
 
         <TextView
             android:id="@+id/tourNameHead"

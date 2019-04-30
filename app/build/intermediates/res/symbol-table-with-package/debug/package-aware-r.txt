@@ -1107,6 +1107,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addEvnt
+id addNewExpense
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1166,6 +1167,8 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id expenseAmount
+id expenseComment
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1401,6 +1404,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout expense_dialog
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

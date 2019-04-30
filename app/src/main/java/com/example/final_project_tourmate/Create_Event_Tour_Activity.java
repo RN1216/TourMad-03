@@ -150,7 +150,7 @@ public class Create_Event_Tour_Activity extends AppCompatActivity {
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(Create_Event_Tour_Activity.this, "Tour info saved successfully.", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(Create_Event_Tour_Activity.this, TourDetailInfoActivity.class));
+                    startActivity(new Intent(Create_Event_Tour_Activity.this, EventLIstActivity.class));
                     finish();
                 } else {
                     Toast.makeText(Create_Event_Tour_Activity.this, "Tour info not save successfully.", Toast.LENGTH_SHORT).show();

@@ -24,6 +24,7 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
     private Context context;
     private List<TourInfo> dataList;
     private EventListener listener;
+    private TourInfo currentData;
 
     private SimpleDateFormat dateSDF = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -47,13 +48,16 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final ViewHolder viewHolder, int i) {
-        final TourInfo currentData = dataList.get(i);
+    public void onBindViewHolder(@NonNull final ViewHolder viewHolder, int i)
+    {
+         currentData = dataList.get(i);
+
         viewHolder.binding.tourNameTV.setText(currentData.getTourName());
         viewHolder.binding.tourDescriptionTV.setText(currentData.getTourDescription());
         viewHolder.binding.startDateTV.setText(dateSDF.format(currentData.getStartDate()));
         viewHolder.binding.endDateTV.setText(dateSDF.format(currentData.getEndDate()));
         viewHolder.binding.budgetTV.setText(String.valueOf(currentData.getBudget()));
+
         viewHolder.binding.menuTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -109,7 +113,10 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    String id=currentData.getTourUid();
+                    //Toast.makeText(context, id+"", Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(context,TourDetailInfoActivity.class);
+                    intent.putExtra("id",id);
                     context.startActivity(intent);
                 }
             });
