@@ -13,6 +13,7 @@
         android:background="#23E91E63">
 
        <TextView
+           android:id="@+id/tourName"
            android:layout_margin="5dp"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/budgetTV"
                 android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,6 +52,7 @@
                 android:textSize="20dp"
                 android:background="#3E00BCD4"/>
             <TextView
+                android:id="@+id/viewAllxpense"
                 android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,6 +60,7 @@
                 android:textSize="20dp"
                 android:background="#3E00BCD4"/>
             <TextView
+                android:id="@+id/remainBudgetTV"
                 android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditTourActivity"></activity>
+        <activity android:name=".Expense_show"></activity>
+        <activity android:name=".EditTourActivity" />
         <activity android:name=".EventLIstActivity" />
         <activity android:name=".TourDetailInfoActivity" />
         <activity android:name=".Create_Event_Tour_Activity" />

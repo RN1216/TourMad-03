@@ -117,6 +117,8 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
                     //Toast.makeText(context, id+"", Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(context,TourDetailInfoActivity.class);
                     intent.putExtra("id",id);
+                    intent.putExtra("budget",currentData.getBudget());
+                    intent.putExtra("tourName",currentData.getTourName());
                     context.startActivity(intent);
                 }
             });

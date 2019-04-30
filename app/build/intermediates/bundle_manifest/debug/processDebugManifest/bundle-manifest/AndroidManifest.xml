@@ -26,6 +26,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.final_project_tourmate.Expense_show" />
         <activity android:name="com.example.final_project_tourmate.EditTourActivity" />
         <activity android:name="com.example.final_project_tourmate.EventLIstActivity" />
         <activity android:name="com.example.final_project_tourmate.TourDetailInfoActivity" />

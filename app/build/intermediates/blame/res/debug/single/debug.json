@@ -232,6 +232,10 @@
         "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\85f395d9cf0b9bf638b11ac773921810\\res\\color\\mtrl_btn_bg_color_selector.xml"
     },
     {
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_expense_show.xml.flat",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_expense_show.xml"
+    },
+    {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\632eada6fd0004c2252450dd412259aa\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -1228,16 +1232,16 @@
         "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\632eada6fd0004c2252450dd412259aa\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_linear.xml.flat",
-        "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\85f395d9cf0b9bf638b11ac773921810\\res\\interpolator\\mtrl_linear.xml"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9209e89948ebda7be2f60e8d3acd809e\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
         "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\85f395d9cf0b9bf638b11ac773921810\\res\\color\\mtrl_tabs_ripple_color.xml"
     },
     {
-        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9209e89948ebda7be2f60e8d3acd809e\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_mtrl_linear.xml.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\85f395d9cf0b9bf638b11ac773921810\\res\\interpolator\\mtrl_linear.xml"
     },
     {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
@@ -1278,6 +1282,10 @@
     {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tour_detail_info.xml.flat",
         "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\activity_tour_detail_info.xml"
+    },
+    {
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_show_expense_list.xml.flat",
+        "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\show_expense_list.xml"
     },
     {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1492,12 +1500,12 @@
         "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\632eada6fd0004c2252450dd412259aa\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\632eada6fd0004c2252450dd412259aa\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_update_dialog.xml.flat",
         "source": "F:\\Tour-MAD03\\TourMad-03\\app\\src\\main\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\632eada6fd0004c2252450dd412259aa\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "F:\\Tour-MAD03\\TourMad-03\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",

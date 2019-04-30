@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.databinding:adapters:3.3.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\adapters-3.3.2.aar\5232cd9e7712bff1be98c9655e07bcf3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.3.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\library-3.3.2.aar\5a4b1f0d31d3b6eb398d2316fd44f39d\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\85f395d9cf0b9bf638b11ac773921810\AndroidManifest.xml:17:1-24:12
@@ -16,11 +16,11 @@ MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\ACER\.gradle
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\e1f8c4af165231142466ba52b52b90c9\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\3c2f7e43955fc5303033d649aa2d5eb6\AndroidManifest.xml:17:1-37:12
 MERGED from [com.oguzdev:CircularFloatingActionMenu:1.0.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\CircularFloatingActionMenu-1.0.2.aar\0143945226b582838c3af123b13b1399\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\da5e0f71baa2fc87a4eb7b2662f8a88a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\080a9126d37f107e129f0176c8a5b713\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\7c9ef41f7a9be10671e41d24f1bb8b58\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\7a56ab322b0774932e222e1644251869\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\da5e0f71baa2fc87a4eb7b2662f8a88a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\fb24896e2bb197c2afb61b002c3c515e\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9209e89948ebda7be2f60e8d3acd809e\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\ff723c2e2839b7dd12b99aaf31f433df\AndroidManifest.xml:2:1-19:12
@@ -66,25 +66,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ACER\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\64d4623b351c7dc35dc0f619aa5016cb\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3f3818c0e7d07aa442a0538c35172256\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\a6db2cb8b1299c573ac04602b77f952c\AndroidManifest.xml:2:1-7:12
-INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\85f395d9cf0b9bf638b11ac773921810\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\85f395d9cf0b9bf638b11ac773921810\AndroidManifest.xml:22:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\d00562d68a382999ac5fd45640c3d1bd\AndroidManifest.xml:7:5-12:19
@@ -101,14 +101,14 @@ MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\ACER\.gradle\
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\e1f8c4af165231142466ba52b52b90c9\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\3c2f7e43955fc5303033d649aa2d5eb6\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\3c2f7e43955fc5303033d649aa2d5eb6\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\080a9126d37f107e129f0176c8a5b713\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\080a9126d37f107e129f0176c8a5b713\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\7c9ef41f7a9be10671e41d24f1bb8b58\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\7c9ef41f7a9be10671e41d24f1bb8b58\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\7a56ab322b0774932e222e1644251869\AndroidManifest.xml:28:5-57:19
 MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\7a56ab322b0774932e222e1644251869\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\fb24896e2bb197c2afb61b002c3c515e\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\fb24896e2bb197c2afb61b002c3c515e\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9209e89948ebda7be2f60e8d3acd809e\AndroidManifest.xml:22:5-27:19
@@ -157,40 +157,44 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ACER\.grad
 		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.final_project_tourmate.Expense_show
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:12:9-59
+	android:name
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:12:19-47
 activity#com.example.final_project_tourmate.EditTourActivity
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:12:9-63
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:13:9-54
 	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:12:19-51
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:13:19-51
 activity#com.example.final_project_tourmate.EventLIstActivity
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:13:9-55
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:14:9-55
 	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:13:19-52
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:14:19-52
 activity#com.example.final_project_tourmate.TourDetailInfoActivity
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:14:9-60
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:15:9-60
 	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:14:19-57
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:15:19-57
 activity#com.example.final_project_tourmate.Create_Event_Tour_Activity
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:15:9-64
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:16:9-64
 	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:15:19-61
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:16:19-61
 activity#com.example.final_project_tourmate.RegisterUser
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:16:9-50
-	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:16:19-47
-activity#com.example.final_project_tourmate.MainActivity
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:17:9-50
 	android:name
 		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:17:19-47
+activity#com.example.final_project_tourmate.MainActivity
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Tour-MAD03\TourMad-03\app\src\main\AndroidManifest.xml
@@ -219,16 +223,16 @@ MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\ACER\.gradl
 MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\3c2f7e43955fc5303033d649aa2d5eb6\AndroidManifest.xml:20:5-44
 MERGED from [com.oguzdev:CircularFloatingActionMenu:1.0.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\CircularFloatingActionMenu-1.0.2.aar\0143945226b582838c3af123b13b1399\AndroidManifest.xml:7:5-9:41
 MERGED from [com.oguzdev:CircularFloatingActionMenu:1.0.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\CircularFloatingActionMenu-1.0.2.aar\0143945226b582838c3af123b13b1399\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\da5e0f71baa2fc87a4eb7b2662f8a88a\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\da5e0f71baa2fc87a4eb7b2662f8a88a\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\080a9126d37f107e129f0176c8a5b713\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\080a9126d37f107e129f0176c8a5b713\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\7c9ef41f7a9be10671e41d24f1bb8b58\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\7c9ef41f7a9be10671e41d24f1bb8b58\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\7a56ab322b0774932e222e1644251869\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\7a56ab322b0774932e222e1644251869\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\da5e0f71baa2fc87a4eb7b2662f8a88a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\da5e0f71baa2fc87a4eb7b2662f8a88a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b86e16c5c4a24e34e39715695da5c620\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\fb24896e2bb197c2afb61b002c3c515e\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\fb24896e2bb197c2afb61b002c3c515e\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\ACER\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9209e89948ebda7be2f60e8d3acd809e\AndroidManifest.xml:20:5-44

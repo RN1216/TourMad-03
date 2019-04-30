@@ -8,9 +8,11 @@ import android.util.SparseIntArray;
 import android.view.View;
 import com.example.final_project_tourmate.databinding.ActivityCreateEventTourBindingImpl;
 import com.example.final_project_tourmate.databinding.ActivityEventListBindingImpl;
+import com.example.final_project_tourmate.databinding.ActivityExpenseShowBindingImpl;
 import com.example.final_project_tourmate.databinding.ActivityMainBindingImpl;
 import com.example.final_project_tourmate.databinding.ActivityRegisterUserBindingImpl;
 import com.example.final_project_tourmate.databinding.ActivityTourDetailInfoBindingImpl;
+import com.example.final_project_tourmate.databinding.ShowExpenseListBindingImpl;
 import com.example.final_project_tourmate.databinding.ShowTourDetailInfoBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -27,22 +29,28 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYEVENTLIST = 2;
 
-  private static final int LAYOUT_ACTIVITYMAIN = 3;
+  private static final int LAYOUT_ACTIVITYEXPENSESHOW = 3;
 
-  private static final int LAYOUT_ACTIVITYREGISTERUSER = 4;
+  private static final int LAYOUT_ACTIVITYMAIN = 4;
 
-  private static final int LAYOUT_ACTIVITYTOURDETAILINFO = 5;
+  private static final int LAYOUT_ACTIVITYREGISTERUSER = 5;
 
-  private static final int LAYOUT_SHOWTOURDETAILINFO = 6;
+  private static final int LAYOUT_ACTIVITYTOURDETAILINFO = 6;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(6);
+  private static final int LAYOUT_SHOWEXPENSELIST = 7;
+
+  private static final int LAYOUT_SHOWTOURDETAILINFO = 8;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(8);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.activity_create__event__tour_, LAYOUT_ACTIVITYCREATEEVENTTOUR);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.activity_event_list, LAYOUT_ACTIVITYEVENTLIST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.activity_expense_show, LAYOUT_ACTIVITYEXPENSESHOW);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.activity_register_user, LAYOUT_ACTIVITYREGISTERUSER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.activity_tour_detail_info, LAYOUT_ACTIVITYTOURDETAILINFO);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.show_expense_list, LAYOUT_SHOWEXPENSELIST);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.final_project_tourmate.R.layout.show_tour_detail_info, LAYOUT_SHOWTOURDETAILINFO);
   }
 
@@ -67,6 +75,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for activity_event_list is invalid. Received: " + tag);
         }
+        case  LAYOUT_ACTIVITYEXPENSESHOW: {
+          if ("layout/activity_expense_show_0".equals(tag)) {
+            return new ActivityExpenseShowBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_expense_show is invalid. Received: " + tag);
+        }
         case  LAYOUT_ACTIVITYMAIN: {
           if ("layout/activity_main_0".equals(tag)) {
             return new ActivityMainBindingImpl(component, view);
@@ -84,6 +98,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityTourDetailInfoBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_tour_detail_info is invalid. Received: " + tag);
+        }
+        case  LAYOUT_SHOWEXPENSELIST: {
+          if ("layout/show_expense_list_0".equals(tag)) {
+            return new ShowExpenseListBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for show_expense_list is invalid. Received: " + tag);
         }
         case  LAYOUT_SHOWTOURDETAILINFO: {
           if ("layout/show_tour_detail_info_0".equals(tag)) {
@@ -144,14 +164,16 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(6);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(8);
 
     static {
       sKeys.put("layout/activity_create__event__tour__0", com.example.final_project_tourmate.R.layout.activity_create__event__tour_);
       sKeys.put("layout/activity_event_list_0", com.example.final_project_tourmate.R.layout.activity_event_list);
+      sKeys.put("layout/activity_expense_show_0", com.example.final_project_tourmate.R.layout.activity_expense_show);
       sKeys.put("layout/activity_main_0", com.example.final_project_tourmate.R.layout.activity_main);
       sKeys.put("layout/activity_register_user_0", com.example.final_project_tourmate.R.layout.activity_register_user);
       sKeys.put("layout/activity_tour_detail_info_0", com.example.final_project_tourmate.R.layout.activity_tour_detail_info);
+      sKeys.put("layout/show_expense_list_0", com.example.final_project_tourmate.R.layout.show_expense_list);
       sKeys.put("layout/show_tour_detail_info_0", com.example.final_project_tourmate.R.layout.show_tour_detail_info);
     }
   }
