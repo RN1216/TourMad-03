@@ -30,7 +30,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".6"
-                    android:text="expense_type"
+                    android:text="Expense Type"
                     android:textSize="21sp"
                     android:textStyle="bold" />
 
@@ -38,7 +38,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".4"
-                    android:text="amount"
+                    android:text="Amount"
                     android:textSize="21sp"
                     android:textStyle="bold" />
 

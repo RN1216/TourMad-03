@@ -26,13 +26,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.final_project_tourmate.MainActivity" />
         <activity android:name="com.example.final_project_tourmate.Expense_show" />
         <activity android:name="com.example.final_project_tourmate.EditTourActivity" />
         <activity android:name="com.example.final_project_tourmate.EventLIstActivity" />
         <activity android:name="com.example.final_project_tourmate.TourDetailInfoActivity" />
         <activity android:name="com.example.final_project_tourmate.Create_Event_Tour_Activity" />
         <activity android:name="com.example.final_project_tourmate.RegisterUser" />
-        <activity android:name="com.example.final_project_tourmate.MainActivity" >
+        <activity android:name="com.example.final_project_tourmate.SplashScreenActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -146,6 +147,11 @@
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.final_project_tourmate.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

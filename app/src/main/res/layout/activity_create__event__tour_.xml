@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="10sp"
+        android:padding="20sp"
         tools:context=".Create_Event_Tour_Activity">
 
         <TextView
@@ -20,7 +20,8 @@
             android:textAlignment="center"
             android:paddingBottom="20dp"
             android:gravity="center"
-            android:textSize="40dp"
+            android:textSize="30dp"
+            android:textColor="@color/colorblue"
             />
 
         <EditText
@@ -33,7 +34,8 @@
             android:padding="16dp"
             android:singleLine="true"
             android:textAlignment="center"
-             />
+            android:drawableLeft="@drawable/ic_directions_run_black_24dp"
+            />
 
         <EditText
             android:id="@+id/tourDescriptionET"
@@ -45,7 +47,8 @@
             android:padding="16dp"
             android:singleLine="true"
             android:textAlignment="center"
-             />
+            android:drawableLeft="@drawable/ic_description"
+            />
 
         <EditText
             android:id="@+id/startDateAddTourET"
@@ -57,7 +60,8 @@
             android:inputType="text"
             android:padding="16dp"
             android:textAlignment="center"
-             />
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            />
 
         <EditText
             android:id="@+id/endDateAddTourET"
@@ -69,7 +73,8 @@
             android:inputType="text"
             android:padding="16dp"
             android:textAlignment="center"
-             />
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            />
 
         <EditText
             android:id="@+id/tourBudgetET"
@@ -80,7 +85,8 @@
             android:hint="Budget"
             android:padding="16dp"
             android:textAlignment="center"
-             />
+            android:drawableLeft="@drawable/ic_taka"
+            />
 
         <Button
             android:id="@+id/saveTourInfoAddNewTourBtn"
@@ -90,7 +96,11 @@
             android:padding="16dp"
             android:text="Save Your Tour"
             android:textAllCaps="false"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+
+            android:background="@drawable/round"
+            />
 
 
 

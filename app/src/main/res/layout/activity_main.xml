@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SIGN IN"
+            android:textColor="@color/colorblue"
             android:paddingBottom="20dp"
             android:gravity="center"
             android:textSize="40dp"/>
@@ -43,6 +44,9 @@
             android:layout_height="wrap_content"
             android:text="Login"
             android:onClick="loginUser"
+            android:textSize="20dp"
+            android:background="@drawable/round"
+            android:textColor="@color/colorWhite"
             android:textAllCaps="false"/>
 
         <LinearLayout

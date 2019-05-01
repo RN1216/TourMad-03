@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Expense_show"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Expense_show" />
         <activity android:name=".EditTourActivity" />
         <activity android:name=".EventLIstActivity" />
         <activity android:name=".TourDetailInfoActivity" />
         <activity android:name=".Create_Event_Tour_Activity" />
         <activity android:name=".RegisterUser" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
