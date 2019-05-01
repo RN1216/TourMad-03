@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -25,6 +26,7 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
     private List<TourInfo> dataList;
     private EventListener listener;
     private TourInfo currentData;
+    private static final String TAG =TourRecyclerViewAdapter.class.getSimpleName() ;
 
     private SimpleDateFormat dateSDF = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -114,6 +116,9 @@ public class TourRecyclerViewAdapter extends RecyclerView.Adapter<TourRecyclerVi
                 @Override
                 public void onClick(View v) {
                     String id=currentData.getTourUid();
+                    //Log.e(TAG,"name_budget: "+id);
+                    Log.e(TAG,"event_id :"+id);
+
                     //Toast.makeText(context, id+"", Toast.LENGTH_SHORT).show();
                     Intent intent=new Intent(context,TourDetailInfoActivity.class);
                     intent.putExtra("id",id);

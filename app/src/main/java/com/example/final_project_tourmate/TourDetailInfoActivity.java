@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +22,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class TourDetailInfoActivity extends AppCompatActivity
 {
+    private static final String TAG =TourDetailInfoActivity.class.getSimpleName() ;
     TextView addExpense,budgetTV,viewExpense,remainBudgetText,tourNameTV;
     private double budget, remainBudget;
     private FirebaseAuth firebaseAuth;
@@ -53,6 +55,7 @@ public class TourDetailInfoActivity extends AppCompatActivity
         firebaseAuth = FirebaseAuth.getInstance();;
         database = FirebaseDatabase.getInstance();
         userId = firebaseAuth.getCurrentUser().getUid();
+        Log.e(TAG,"name_budget: "+eventId);
         myRef = database.getReference("tourUser").child(userId).child("event").child(eventId);
 
         //Toast.makeText(this, id+"", Toast.LENGTH_SHORT).show();

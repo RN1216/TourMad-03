@@ -137,7 +137,8 @@ public class Create_Event_Tour_Activity extends AppCompatActivity {
         datePickerDialog.show();
     }
 
-    public void saveTourInfo(TourInfo tourInfo) {
+    public void saveTourInfo(TourInfo tourInfo)
+    {
 
         String user = firebaseAuth.getCurrentUser().getUid();
         // Write to the database

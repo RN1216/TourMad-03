@@ -7,13 +7,24 @@ public class TourInfo {
     private double budget, remainBudget = 0.0;
     private String tourUid;
 
-    public TourInfo(String tourName, String tourDescription, long startDate, long endDate, double budget, double remainBudget, String tourUid) {
+  /*  public TourInfo(String tourName, String tourDescription, long startDate, long endDate, double budget, double remainBudget, String tourUid) {
+
         this.tourName = tourName;
         this.tourDescription = tourDescription;
         this.startDate = startDate;
         this.endDate = endDate;
         this.budget = budget;
         this.remainBudget = remainBudget;
+        this.tourUid = tourUid;
+    }*/
+
+    public TourInfo(String tourName, String tourDescription, long startDate, long endDate, double budget, String tourUid) {
+
+        this.tourName = tourName;
+        this.tourDescription = tourDescription;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.budget = budget;
         this.tourUid = tourUid;
     }
 
@@ -31,6 +42,7 @@ public class TourInfo {
 
     public TourInfo()
     {
+
     }
 
     public void setTourName(String tourName) {

@@ -44,6 +44,7 @@ public class EventLIstActivity extends AppCompatActivity implements TourRecycler
     private String TAG=EventLIstActivity.class.getSimpleName();
     private String user;
     private long startDate,endDate;
+    String tourID;
     private SimpleDateFormat dateSDF = new SimpleDateFormat("dd/MM/yyyy");
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -170,6 +171,7 @@ public class EventLIstActivity extends AppCompatActivity implements TourRecycler
             {
                 String name= (String) dataSnapshot.child("tourName").getValue();
                 String description= (String) dataSnapshot.child("tourDescription").getValue();
+                 tourID= (String) dataSnapshot.child("tourUid").getValue();
                 long start= (long) dataSnapshot.child("startDate").getValue();
                 long end= (long) dataSnapshot.child("endDate").getValue();
                 long budget= (long) dataSnapshot.child("budget").getValue();
@@ -208,7 +210,8 @@ public class EventLIstActivity extends AppCompatActivity implements TourRecycler
                  final String name=nameEdit.getText().toString();
                 final String description=descriptionEdit.getText().toString();
                 final Double budget=Double.parseDouble(budgetEddit.getText().toString());
-                TourInfo tourInfo=new TourInfo(name,description,startDate,endDate,budget);
+                //String tourName, String tourDescription, long startDate, long endDate, double budget, double remainBudget, String tourUid
+                TourInfo tourInfo =new TourInfo(name,description,startDate,endDate,budget,tourID);
 
                 userRef.child(id).setValue(tourInfo);
                 dialog.dismiss();
